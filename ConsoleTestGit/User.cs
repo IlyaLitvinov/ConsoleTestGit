@@ -12,12 +12,15 @@ namespace ConsoleTestGit
         {
             get
             {
-                return name?? "Иннокентий";
+                if (name == String.Empty)
+                    return "Иннокентий";
+                else return name;
             }
             set
             {
                 if (value == "Джон")
                     name = "Джон Локк";
+                else name = value;
             }
         }
     }
