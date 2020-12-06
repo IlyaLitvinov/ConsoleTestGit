@@ -2,8 +2,15 @@
 
 namespace ConsoleTestGit
 {
+    /// <summary>
+    /// Основной класс программы.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Метод-точка входа в программу.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {            
             Console.WriteLine("What is your name?");
