@@ -10,7 +10,9 @@ namespace ConsoleTestGit
             Console.WriteLine("I am Visual Studio!");
             Console.Write("My name is ");
             string name = Console.ReadLine();
-            Console.WriteLine($"Hello, {name}!");
+            var user = new User();
+            user.Name = name;
+            Console.WriteLine($"Hello, {user.Name}!");
             Console.ReadKey();
         }
     }
