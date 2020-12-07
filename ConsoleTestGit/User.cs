@@ -35,7 +35,7 @@ namespace ConsoleTestGit
         public User()
         {
             counter+=1;
-            Notify($"Ну охренеть теперь! Создан пользователь №:{counter}");
+            Notify($"Ну охренеть теперь! Создан пользователь №{counter}");
         }
     }
 }
