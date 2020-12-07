@@ -19,6 +19,8 @@ namespace ConsoleTestGit
 			Console.WriteLine("Все поправил.");
             Console.WriteLine("What is your name?");
             Console.WriteLine("I am Visual Studio!");
+            
+            User.Notify += DisplayMessage;
             while (true)
             {
                 Console.Write("My name is ");
@@ -26,12 +28,17 @@ namespace ConsoleTestGit
                 if (name == "Выход" || name == "выход" || name == "exit" || name == "Exit")
                     break;
 
-                var user = new User();
+                var user = new User();                
                 user.Name = name;
                 Console.WriteLine($"Hello, {user.Name}!");
             }
             Console.WriteLine("Good bye!");
             Console.ReadKey();
+        }
+
+        private static void DisplayMessage(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }
