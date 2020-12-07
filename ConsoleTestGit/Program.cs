@@ -12,7 +12,8 @@ namespace ConsoleTestGit
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
-        {            
+        {
+            Console.WriteLine("Ну натворили делов, блин");
             Console.WriteLine("What is your name?");
             Console.WriteLine("I am Visual Studio!");
             while (true)
