@@ -14,6 +14,7 @@ namespace ConsoleTestGit
         static void Main(string[] args)
         {
             Console.WriteLine("Ну натворили делов, блин");
+            Console.WriteLine("Хрень какая то происходит");
             Console.WriteLine("What is your name?");
             Console.WriteLine("I am Visual Studio!");
             while (true)
