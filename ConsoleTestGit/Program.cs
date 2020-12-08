@@ -19,7 +19,8 @@ namespace ConsoleTestGit
 			Console.WriteLine("Все поправил.");
             Console.WriteLine("What is your name?");
             Console.WriteLine("I am Visual Studio!");
-            
+            Console.WriteLine("test");
+
             User.Notify += DisplayMessage;
             while (true)
             {
